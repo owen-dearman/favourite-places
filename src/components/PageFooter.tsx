@@ -1,5 +1,5 @@
 //This component concerns the layout for the Page Footer
 
-function pageFooter(){
-    
+function PageFooter(){
+
 }
