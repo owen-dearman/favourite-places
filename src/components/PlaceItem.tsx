@@ -4,7 +4,7 @@ interface placeDetails {
   name: string;
   country: string;
   timesVisited: number;
-  placeImage: string;
+  placeImage: string[];
   locationLink: string;
   description: string;
 }
@@ -13,7 +13,7 @@ function PlaceItem(place: placeDetails): JSX.Element {
   return (
     <div style={{ textAlign: "center" }}>
       <h2 style={{ color: "blue" }}>{place.title}</h2>
-      <img src={place.placeImage} />
+      <img src={place.placeImage[0]} alt={place.placeImage[1]} />
       <h2>
         {place.name} ({place.country})
       </h2>
