@@ -9,7 +9,7 @@ function MainContents(): JSX.Element {
       country={"United Kingdom"}
       timesVisited={2}
       placeImage={[
-        "../images/malhamCove.jpg",
+        "./images/malhamCove.jpg",
         "Malham Cove formation in the background with a stream in the foreground and trees on either side",
       ]}
       locationLink={"https://goo.gl/maps/aaQanD5HBcKgGhFG8"}
