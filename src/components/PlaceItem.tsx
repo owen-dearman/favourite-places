@@ -7,11 +7,12 @@ interface placeDetails {
   placeImage: string[];
   locationLink: string;
   description: string;
+  linkID: string;
 }
 
 function PlaceItem(place: placeDetails): JSX.Element {
   return (
-    <div className="ContentBlock">
+    <div id={place.linkID} className="ContentBlock">
       <h2 className="FormatHeader">{place.title}</h2>
       <img
         className="image"

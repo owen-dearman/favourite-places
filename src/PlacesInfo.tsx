@@ -1,19 +1,15 @@
-import PlacesInfo from "../PlacesInfo";
-import PlaceItem from "./PlaceItem";
-
 interface placesInfoInterface {
-  title: string;
-  name: string;
-  country: string;
-  timesVisited: number;
-  placeImage: string[];
-  locationLink: string;
-  description: string;
-  linkID: string;
-}
+    title: string;
+    name: string;
+    country: string;
+    timesVisited: number;
+    placeImage: string[];
+    locationLink: string;
+    description: string;
+    linkID: string;
+  }
 
-function MainContents(): JSX.Element {
-  let PlacesInfo: placesInfoInterface[] = [
+let PlacesInfo = [
     {
       title: "Limestone Rocks", 
       name: "Malham Cove", 
@@ -37,7 +33,7 @@ function MainContents(): JSX.Element {
       placeImage: ["/images/york.jpg", "York Shambles"],
       locationLink: "https://goo.gl/maps/9Arjyy6Ka8uzCvsg8",
       linkID: "york",
-      description: `
+      decsription: `
       I spent 4 years in York at university and it quickly rose to become one of my favourite places, not least because it's where I met my girlfriend.
       It ouses (wink wink) culture and friendliness that I've yet to experience elsewhere. There's so many places to see: The Shambles, Ouse, Minster, Jorvik Centre, Railway Museum, and Castle to name a few.
       Plus, there's over 365 pubs and a multitude of independent cafes, restuarants and shops.
@@ -51,7 +47,7 @@ function MainContents(): JSX.Element {
       placeImage: ["/images/cheslyn.jpeg","Cheslyn house situated in its grounds",],
       locationLink: "https://goo.gl/maps/HzhdzLHXLHcWUe239",
       linkID: "cheslyn",
-      description: `
+      decsription: `
       This hidden oasis is one of, if not the best hidden treasure of Watford. 
       The 3.5 acre gardens have space to sit and reflect, or explore an expanse of forest, or admire the rare flowers.
       With a fish pond and aviary, it's a secluded place to wander and get lost in your thoughts. 
@@ -66,7 +62,7 @@ function MainContents(): JSX.Element {
       placeImage: ["/images/porec.jpg","The peninsula of Porec with Meditteranean houses and clear blue sea"],
       locationLink: "https://goo.gl/maps/6hY2uErzHpnRrJf88",
       linkID: "porec",
-      description: `
+      decsription: `
       "This represents my favourite family holiday, with sun, sea and the most beautiful architecture I've ever seen.
       With easy access to Rovinj (the city on the hill) or Pula with its Roman amphitheatre, there's places to go once you've explored Porec.
       Take me back!
@@ -80,31 +76,13 @@ function MainContents(): JSX.Element {
       placeImage: ["/images/cochituate.jpeg","The boat house infront of the middle lake at sunset"],
       locationLink: "https://goo.gl/maps/9Ju3r6ZMMAmQX25d9",
       linkID: "coch",
-      description: `
+      decsription: `
       Kayaking, barbeques, swimming and walking - in this park you can do it all. 
       With three mahoosive lakes connected by tunnels, there is endless potential for exploration.
       It would take hundreds of visits to see everything and cover every inch of this classic American park.
     `
     },
   ]
-    let placesArray = PlacesInfo.map(contentBuilder);
-    return <>{placesArray}</>
-}
 
-function contentBuilder(place: placesInfoInterface): JSX.Element{
-  return (
-    <PlaceItem
-      title={place.title}
-      name={place.name}
-      country={place.country}
-      timesVisited={place.timesVisited}
-      placeImage={place.placeImage}
-      locationLink={place.locationLink}
-      linkID={place.linkID}
-      description={place.description}   
-    />
-  )
-}
-
-export default MainContents;
-
+  export default PlacesInfo
+ 
