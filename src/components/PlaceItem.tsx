@@ -12,7 +12,7 @@ interface placeDetails {
 function PlaceItem(place: placeDetails): JSX.Element {
   return (
     <div className="ContentBlock">
-      <h2 className="FormatTitle">{place.title}</h2>
+      <h2 className="FormatHeader">{place.title}</h2>
       <img
         className="image"
         src={place.placeImage[0]}
