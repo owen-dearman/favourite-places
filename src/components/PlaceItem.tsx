@@ -26,6 +26,9 @@ function PlaceItem(place: placeDetails): JSX.Element {
         Where is this place?
       </a>
       <p className="FormatText">Times Visited: {place.timesVisited}</p>
+      <a className="LinkPlace" href="#pageTop">
+        Return To Top
+      </a>
     </div>
   );
 }
