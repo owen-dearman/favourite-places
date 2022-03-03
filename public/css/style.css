@@ -24,7 +24,7 @@
     color: rgb(255, 230, 0);
     position: relative;
     top: 5px;
-    font-size: large;
+    font-size: 50;
 }
 
 .FormatTitle {
@@ -49,7 +49,7 @@
     color:rgb(0, 195, 255);
     position: relative;
     top: 5px;
-    font-size: 50px;
+    font-size: 100px;
     background-color: rgb(78, 78, 78);
 }
 
@@ -58,9 +58,9 @@
 }
 
 .FormatFooter{
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', monospace;
-    color:rgb(0, 0, 0);
+    color:rgb(0, 195, 255);
     position: relative;
     top: 5px;
     font-size: 20px;
