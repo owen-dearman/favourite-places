@@ -18,7 +18,7 @@ function PlaceItem(place: placeDetails): JSX.Element {
         src={place.placeImage[0]}
         alt={place.placeImage[1]}
       />
-      <h2>
+      <h2 className="Format">
         {place.name} ({place.country})
       </h2>
       <p>{place.description}</p>
