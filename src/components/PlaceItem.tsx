@@ -22,7 +22,9 @@ function PlaceItem(place: placeDetails): JSX.Element {
         {place.name} ({place.country})
       </h2>
       <p className="FormatText">{place.description}</p>
-      <a href={place.locationLink} className="FormatText">Where is this place?</a>
+      <a href={place.locationLink} className="FormatText">
+        Where is this place?
+      </a>
       <p className="FormatText">Times Visited: {place.timesVisited}</p>
     </div>
   );
