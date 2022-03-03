@@ -1,5 +1,5 @@
 //This component displays the information for each favourite place
-interface placeDetails {
+interface placesInfoInterface {
   title: string;
   name: string;
   country: string;
@@ -10,7 +10,7 @@ interface placeDetails {
   linkID: string;
 }
 
-function PlaceItem(place: placeDetails): JSX.Element {
+function PlaceItem(place: placesInfoInterface): JSX.Element {
   return (
     <div id={place.linkID} className="ContentBlock">
       <h2 className="FormatHeader">{place.title}</h2>
