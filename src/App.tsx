@@ -4,11 +4,11 @@ import PageFooter from "./components/PageFooter";
 
 function App(): JSX.Element {
   return (
-    <>
+    <div className="Main">
       <PageHeader />
       <MainContents />
       <PageFooter />
-    </>
+    </div>
   );
 }
 

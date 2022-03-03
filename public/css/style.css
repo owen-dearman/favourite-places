@@ -34,3 +34,16 @@
     bottom: 20px;
 }
 
+.PageTitle{
+    text-align: center;
+    font-family: 'Times New Roman', monospace;
+    color:rgb(0, 195, 255);
+    position: relative;
+    top: 5px;
+    font-size: 50px;
+    background-color: rgb(78, 78, 78);
+}
+
+.Main{
+    background-color: rgb(78, 78, 78);
+}
