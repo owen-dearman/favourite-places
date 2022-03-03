@@ -18,10 +18,7 @@ function PageFooter(): JSX.Element {
           </a>
         </li>
         <li>
-          <a
-            className="LinkFooter"
-            href="https://my-fav-places.netlify.app/"
-          >
+          <a className="LinkFooter" href="https://my-fav-places.netlify.app/">
             Abdul's Favourite Places
           </a>
         </li>
