@@ -9,7 +9,14 @@ function PageFooter(): JSX.Element {
       </h3>
       <p>Links to other pages:</p>
       <ul>
-        <li>Page 1</li>
+        <li>
+          <a
+            className="LinkHeader"
+            href="https://hardcore-northcutt-fafb4e.netlify.app/"
+          >
+            Laura's Favourite Places
+          </a>
+        </li>
       </ul>
     </section>
   );
