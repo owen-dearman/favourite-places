@@ -1,4 +1,3 @@
-import PlacesInfo from "../PlacesInfo";
 import PlaceItem from "./PlaceItem";
 
 interface placesInfoInterface {

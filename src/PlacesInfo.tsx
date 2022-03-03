@@ -1,3 +1,4 @@
+/*
 interface placesInfoInterface {
   title: string;
   name: string;
@@ -8,6 +9,7 @@ interface placesInfoInterface {
   description: string;
   linkID: string;
 }
+*/
 
 const PlacesInfo = [
   {
