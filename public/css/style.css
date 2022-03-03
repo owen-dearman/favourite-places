@@ -11,7 +11,7 @@
 
 .ContentBlock {
     display:block;
-    box-shadow: 0 6px 10px 0 rgb(255, 136, 0);
+    box-shadow: 0 10px 10px 0 rgb(255, 136, 0);
     width:auto;
     height: auto;
     justify-content: center;
@@ -50,11 +50,11 @@
     position: relative;
     top: 5px;
     font-size: 80px;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(0, 0, 0);
 }
 
 .Main{
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(0, 0, 0);
 }
 
 .FormatFooter{
@@ -64,5 +64,6 @@
     position: relative;
     top: 5px;
     font-size: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(0, 0, 0);
 }
+
