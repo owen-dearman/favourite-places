@@ -1,4 +1,3 @@
-
 const PlacesInfo = [
   {
     title: "Limestone Rocks",

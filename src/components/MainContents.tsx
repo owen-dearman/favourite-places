@@ -1,5 +1,5 @@
 import PlaceItem from "./PlaceItem";
-import PlacesInfo from "../PlacesInfo"
+import PlacesInfo from "../PlacesInfo";
 
 interface placesInfoInterface {
   title: string;
