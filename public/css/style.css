@@ -1,0 +1,36 @@
+.image {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position:relative;
+    top:10px;
+}
+
+.ContentBlock {
+    display:block;
+    box-shadow: 0 6px 10px 0 rgb(255, 136, 0);
+    width:auto;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.FormatTitle {
+    text-align: center;
+    font-family: 'Monoco', monospace;
+    color: rgb(255, 230, 0);
+    position: relative;
+    top: 5px;
+}
+
+.FormatText {
+    text-align: center;
+    font-family: 'Monaco', monospace;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 20px;
+}
+
