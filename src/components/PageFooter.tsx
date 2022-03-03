@@ -11,10 +11,18 @@ function PageFooter(): JSX.Element {
       <ul>
         <li>
           <a
-            className="LinkHeader"
+            className="LinkFooter"
             href="https://hardcore-northcutt-fafb4e.netlify.app/"
           >
             Laura's Favourite Places
+          </a>
+        </li>
+        <li>
+          <a
+            className="LinkFooter"
+            href="https://my-fav-places.netlify.app/"
+          >
+            Abdul's Favourite Places
           </a>
         </li>
       </ul>
