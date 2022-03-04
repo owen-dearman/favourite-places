@@ -4,7 +4,7 @@ function PageHeader(): JSX.Element {
   return (
     <header id="pageTop" className="PageTitle">
       <h1 style={{ fontSize: "80px" }}> Owen's Favourite Places</h1>
-      <span style={{ fontSize: "35px" }}>
+      <span style={{ fontSize: "30px" }}>
         <a className="LinkHeader" href="#malhamCove">
           Malham Cove
         </a>{" "}
@@ -23,6 +23,10 @@ function PageHeader(): JSX.Element {
         |{" "}
         <a className="LinkHeader" href="#coch">
           Cochituate
+        </a>{" "}
+        |{" "}
+        <a className="LinkHeader" href="#jersey">
+          Jersey
         </a>{" "}
       </span>
     </header>

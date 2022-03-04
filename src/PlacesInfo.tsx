@@ -72,7 +72,7 @@ const PlacesInfo = [
     country: "USA",
     timesVisited: 4,
     placeImage: [
-      "/images/cochituate.jpg",
+      "/images/coch.jpg",
       "The boat house infront of the middle lake at sunset",
     ],
     locationLink: "https://goo.gl/maps/9Ju3r6ZMMAmQX25d9",
