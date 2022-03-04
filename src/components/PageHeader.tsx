@@ -11,10 +11,9 @@ function makeLink(place: placesInfoInterface): JSX.Element {
   const id = "#" + place.linkID;
   return (
     <li>
-        <a style={{fontSize: "30px"}} className="LinkHeader" href={id}>
-          {place.name}
-        </a>
-
+      <a style={{ fontSize: "30px" }} className="LinkHeader" href={id}>
+        {place.name}
+      </a>
     </li>
   );
 }
