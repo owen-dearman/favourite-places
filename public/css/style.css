@@ -1,12 +1,14 @@
+body{
+    margin: 0;
+}
+
 .image {
-    width: 500px;
-    height: 350px;
+    width: 70%;
+    height: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    position:relative;
-    top:10px;
     border: 5px dotted rgb(225, 136, 0);
     border-left: 5px solid rgb(225, 136, 0);
     border-right: 5px solid rgb(225, 136, 0);
@@ -16,20 +18,17 @@
     display:block;
     /*box-shadow: 20px 20px 50px 15px rgb(0, 0, 0);*/
     border: 30px double rgb(255, 136, 0);
-    width:auto;
+    width:80%;
     height: auto;
     /*padding: 50px;*/
-    justify-content: center;
     background-color: rgb(0, 0, 0);
-    margin: 50px 200px;
+    margin: 75px auto
 }
 
 .FormatHeader {
     text-align: center;
     font-family: 'Monoco', monospace;
     color: rgb(255, 230, 0);
-    position: relative;
-    top: 5px;
     font-size: 60px;
 }
 
@@ -37,29 +36,25 @@
     text-align: center;
     font-family: 'Monoco', monospace;
     color: rgb(255, 230, 0);
-    position: relative;
-    top: 5px;
 }
 
 .FormatText {
     text-align: center;
     font-family: 'Monaco', monospace;
     color: rgb(255, 255, 255);
-    position: relative;
-    bottom: 20px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px;
+    margin: 20px auto;
 }
 
 .PageTitle{
     text-align: center;
     font-family: 'Times New Roman', monospace;
     color:rgb(0, 0, 0);
-    position: relative;
-    top: 5px;
+    width: 80%;
     /*font-size: 80px;*/
     background-color: rgb(225, 136, 0);
     border-bottom: 20px dotted rgb(0, 0, 0);
-    margin: 50px 200px;
+    margin: 50px auto;
     padding: 20px
 }
 
@@ -72,18 +67,17 @@
     text-align: left;
     font-family: 'Times New Roman', monospace;
     color:rgb(0, 0, 0);
-    position: relative;
-    top: 5px;
+    width: 80%;
     font-size: 20px;
     background-color: rgb(255, 136, 0);
     border-bottom: 20px dotted rgb(0, 0, 0);
-    margin: 50px 200px;
+    margin: 50px auto;
     padding: 20px;
 }
 
 .LinkHeader{
     color: black;
-    font-size: 35px;
+    font-size: 23px;
 }
 
 .LinkFooter{

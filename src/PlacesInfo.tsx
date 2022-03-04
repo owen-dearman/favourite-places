@@ -28,7 +28,7 @@ const PlacesInfo = [
     description: `
       I spent 4 years in York at university and it quickly rose to become one of my favourite places, not least because it's where I met my girlfriend.
       It ouses (wink wink) culture and friendliness that I've yet to experience elsewhere. There's so many places to see: The Shambles, Ouse, Minster, Jorvik Centre, Railway Museum, and Castle to name a few.
-      Plus, there's over 365 pubs and a multitude of independent cafes, restuarants and shops.
+      Plus, there's over 365 pubs and a multitude of independent cafes, restaurants and shops.
     `,
   },
   {
@@ -37,7 +37,7 @@ const PlacesInfo = [
     country: "United Kingdom",
     timesVisited: 10,
     placeImage: [
-      "/images/cheslyn.jpeg",
+      "/images/cheslyn.jpg",
       "Cheslyn house situated in its grounds",
     ],
     locationLink: "https://goo.gl/maps/HzhdzLHXLHcWUe239",
@@ -72,7 +72,7 @@ const PlacesInfo = [
     country: "USA",
     timesVisited: 4,
     placeImage: [
-      "/images/cochituate.jpeg",
+      "/images/cochituate.jpg",
       "The boat house infront of the middle lake at sunset",
     ],
     locationLink: "https://goo.gl/maps/9Ju3r6ZMMAmQX25d9",
@@ -81,6 +81,19 @@ const PlacesInfo = [
       Kayaking, barbeques, swimming and walking - in this park you can do it all. 
       With three mahoosive lakes connected by tunnels, there is endless potential for exploration.
       It would take hundreds of visits to see everything and cover every inch of this classic American park.
+    `,
+  },
+  {
+    title: "The UK France",
+    name: "Jersey",
+    country: "United Kingdom",
+    timesVisited: 1,
+    placeImage: ["images/jersey.jpg", "Jersey beaches are amazing"],
+    locationLink: "https://goo.gl/maps/ppdTJjDMCu1ukfoHA",
+    linkID: "jersey",
+    description: `
+    This cute little island off the coast of France boasts miles and miles of beaches, harbours and it's own little zoo.
+    And they're especially proud of the Nigel Mansell collection so give that a look.
     `,
   },
 ];

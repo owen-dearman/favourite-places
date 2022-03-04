@@ -3,7 +3,7 @@
 function PageHeader(): JSX.Element {
   return (
     <header id="pageTop" className="PageTitle">
-      <h1 style={{ fontSize: "100px" }}> Owen's Top 5 Places</h1>
+      <h1 style={{ fontSize: "80px" }}> Owen's Favourite Places</h1>
       <span style={{ fontSize: "35px" }}>
         <a className="LinkHeader" href="#malhamCove">
           Malham Cove
