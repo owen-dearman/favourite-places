@@ -57,7 +57,6 @@ body{
     font-family: 'Times New Roman', monospace;
     color:#00c2f9;
     width: 100%;
-    /*font-size: 80px;*/
     background-color: rgba(1, 42, 55, 0.5);
     border-bottom: 20px dotted #fd2817;
     border-top: 15px dotted #fd2817;
@@ -93,3 +92,13 @@ body{
     padding: 20px;
 }
 
+li {
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+}
+  
+li:not(:last-child):after {
+    content: '|';
+    margin: 0 10px;
+}
