@@ -1,16 +1,6 @@
 import PlaceItem from "./PlaceItem";
 import PlacesInfo from "../PlacesInfo";
-
-interface placesInfoInterface {
-  title: string;
-  name: string;
-  country: string;
-  timesVisited: number;
-  placeImage: string[];
-  locationLink: string;
-  description: string;
-  linkID: string;
-}
+import placesInfoInterface from "../placesInfoInterface";
 
 function MainContents(): JSX.Element {
   const placesArray = PlacesInfo.map(contentBuilder);

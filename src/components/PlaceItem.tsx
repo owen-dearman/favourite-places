@@ -1,14 +1,5 @@
 //This component displays the information for each favourite place
-interface placesInfoInterface {
-  title: string;
-  name: string;
-  country: string;
-  timesVisited: number;
-  placeImage: string[];
-  locationLink: string;
-  description: string;
-  linkID: string;
-}
+import placesInfoInterface from "../placesInfoInterface";
 
 function PlaceItem(place: placesInfoInterface): JSX.Element {
   return (
